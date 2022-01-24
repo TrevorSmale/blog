@@ -1,0 +1,152 @@
+/* This is the main cascading style sheet */
+
+/* Step 1 */
+
+/* Wrapping the content into a gid */
+
+/* Defining the use of a grid */
+
+.wrapper{
+
+    display:grid;
+	grid-gap:0.5em;
+
+}
+
+/* Wrapper? */
+
+
+.wrapper > div{
+	background-color: #grey;
+	padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+	
+}
+
+/* I dont know what this does exactly */
+
+.wrapper > div:nth-child(odd){
+	
+}
+
+/* This is the actual grid stuff */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 4fr 1.5fr;
+  min-width: 450px;
+  max-width: 1fr;
+  background-color: #white;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+/* Don't know what this does yet */
+
+.center {
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+    /* Step 2 */
+    /* Setting up Text Styling */
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+/* Page Styling */
+
+/* ------------------------------------------------------------------------------- */
+
+    /* Regular paragraph font */
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkgrey;
+	text-align: center;
+
+}
+
+    /* Header 1 font */
+
+h1 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+    /* Header 2 font */
+
+h2 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+    /* Header 3 font */
+
+h3 {
+	color: darkslategrey;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+
+h4 {
+
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+    /* Link styling font */
+
+a:link {
+  color: darkgrey;
+  background-color: transparent;
+  text-decoration: none;
+  position: center;
+}
+
+    /* Previously visited link style font */
+
+a:visited {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+    /* Mouse hovers over a link and it reacts */
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+    /* Most recently utilized link */
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+
+  align-content: center;
+  border: 1px;
+}
+
