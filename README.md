@@ -1,12 +1,6 @@
-# Dev Blog
+# Blog
 
-Welcome to my development blog, I am chronicling my learning experience with technology.
+I am a multidisciplinary Designer located in Toronto who is interested in digital technology.
+This blog is meant to chronicle my tools, techniques and experiences. Built from scratch, this site is optimized to have a light file size and to load and render quickly.
 
-## Profile
-
-## Articles
-
-2022/01/17 [Why I decided to learn GO](www.github.io)
-2022/01/10 [Why I decided to get into programming](https://link-url-here.org)
-
-## 
+https://trevorsmale.github.io/blog/
