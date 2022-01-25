@@ -17,11 +17,11 @@
 
 
 .wrapper > div{
-	background-color: #grey;
-	padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 50px;
-  padding-bottom: 10px;
+background-color: #white;
+padding-top: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 25px;
 	
 }
 
@@ -35,12 +35,12 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 4fr 1.5fr;
+  grid-template-columns: 4fr 2fr;
   min-width: 450px;
   max-width: 1fr;
   background-color: #white;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-bottom: 10px;
   padding-top: 50px;
 }
@@ -68,10 +68,13 @@
 
     /* Regular paragraph font */
 
+
+
 p {
 	font-family: Arial, Helvetica, sans-serif;
 	color: darkgrey;
 	text-align: center;
+    font-size: 14px;
 
 }
 
@@ -90,6 +93,13 @@ h2 {
 	color: black;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+hg {
+    color: darkgrey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
