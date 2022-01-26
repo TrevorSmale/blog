@@ -16,6 +16,7 @@
 
 .wrapper {
   max-width: 50%;
+  margin-bottom: 20%;
   min-width: 20%;
   margin-left: auto;
   margin-right: auto;
@@ -119,3 +120,5 @@ img {
   align-content: center;
   border: 1px;
 }
+
+

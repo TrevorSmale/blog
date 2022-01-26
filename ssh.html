@@ -20,17 +20,18 @@
 
 <div> 
 
-<li>Open SSH was created by the Open BSD project</li>
-<li>Designed in order to remotely connect to servers</li>
-<li>Normally uses Port 22, but can be changed to other ports</li>
-<li>The path to a remote server is normaly complex with many ports and routers</li>
+<h4>Open SSH was created by the Open BSD project, it Designed in order to remotely connect to servers</h4>
+
+<li>Open SSH Normally runs Port 22, but can be configured to run on other ports</li>
+<li>The path to a remote server is normaly complex with many ports and routers to pass through</li>
 <li>Troubleshooting a bad connection can be really difficult</li>
-<li>To check for installation ‘which ssh’ should show UNIX location</li>
+<li>It is important to know the version of OpenSSH you are using</li>
 <li>To install download opens-client</li>
-<li>There is a hidden .ssh file that is contained in the home directory</li>
-<li>The hidden directory contains Fingerprints and Config data</li>
-<li>To connect remotely via SSH we must have port forwarding setup</li>
-<li>Port forwarding is blocked by ISP’s sometimes</li>
+<li>There is a hidden .ssh file that is contained in the home directory of a UNIX system</li>
+<li>The hidden directory contains Fingerprints and Config data used for authentication</li>
+<li>To connect remotely via SSH we must have port forwarding setup on our home router</li>
+<li>Port forwarding is blocked by ISP’s sometimes, one must check the type of router they are using and enable/disable this feature</li>
+<li>Additional configurations must be make in order to secure remote connections, as there are many inherent vulnerabilities in port forwarding</li>
 
 <h4>This article is the first of many</h4>
 
@@ -64,7 +65,9 @@ An SSH key consists of a pair of files. One is the private key, which should nev
 
 ### Steps
 
-#### Generating your SSH key and saving it to the ``` ~ / .ssh / config ``` 
+#### Generating your SSH key and saving it to the 
+
+<code> ~ / .ssh / config </code>
 
 </div>	
 </center>	
