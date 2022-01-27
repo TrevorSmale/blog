@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+	
+<link rel="stylesheet" href="posting.css">
+<meta charset="utf-8"/>
+
+<html>
+<body>	
+<head>
+<center><img src="img/Gopher.svg" style="width:200px;height:200px;"></center>
+
+</br>
+
+<h1> Go </h1>
+
+<h4> A statically typed, quickly compiled language for all sorts </h4>
+
+<p> Revised 2022/01/25 </p>
+
+</head> 
+</br>
+<div class="wrapper">
+
+<center>
+
+<div> 
+
+<h4> About </h4>
+
+is a statically typed compiled language touted as 'C for the 21st century' due in part to its development taking place after the advent of the internet and distributed computing.
+
+<h4> Initial Development </h4>
+
+Took place between Rob pike (C/UTF 8) Robert Griesemer (Hotspot JVM) Ken Thompson (Unix/Bsd) at Google starting in 2007. Many languages and frameworks were needed to maintain the large distributed computing infrastructure google had. There was a desire for a modern language that could handle just about anything.
+
+<h4>Go's 21st Century Characteristics </h4>
+
+<li> Concurrency </li>
+<li> Distribituted Systems </li>
+<li> Garbage Collection </li>
+<li> Memory Locality </li>
+<li> Readability </li>
+
+
+---
+
+<h3>Golang Notes</h3>
+
+Kai Hendry
+
+Go mod init (1.13) 
+
+<link rel="stylesheet" type="text/css" href="https://www.youtube.com/watch?v=Ot9Em123Fz8&list=PLrK9UeDMcQLqminTw99JB0en_pvU0SWrn&index=3">
+
+<code>main.go</code>
+<code>go build main.go</code>
+
+<link rel="stylesheet" type="text/css" href="https://golangr.com/gui/">
+<link rel="stylesheet" type="text/css" href="https://github.com/maxence-charriere/go-app">
+<link rel="stylesheet" type="text/css" href="https://github.com/dtylman/gowd">
+
+
+
+
+Deploying Go on App Engine
+
+
+
+##### ship one binary with Go embed 'Command?'
+
+---
+
+## Progressive Web
+
+### Build procedure
+Using 
+
+go-app is a package to build progressive web apps (PWA) with Go programming language and WebAssembly.
+It uses a declarative syntax that allows creating and dealing with HTML elements only by using Go, and without writing any HTML markup.
+The package also provides an http.handler ready to serve all the required resources to run Go-based progressive web apps.
+Install
+
+go-app requirements:
+
+Go 1.14 or newer
+Go module
+
+```
+# Init go module (if not initialized):
+go mod init
+
+# Get package:
+go get -u -v github.com/maxence-charriere/go-app/v6
+```
+
+Users: The users of your app. They request pages and resources from their web browser.
+
+app.Handler: An http.Handler used by your server or cloud function. It serves your app, its static resources, and all the required files to make it work on user browsers.
+
+Application: Your app built with this package. It is built as a WebAssembly (.wasm) binary and is served by the app.Handler.
+
+Other static resources: Styles, images, and scripts used by your app. They are also served by the app.Handler.
+
+Declarative syntax
+
+go-app uses a declarative syntax so you can write component-based UI elements just by using the Go programming language.
+
+<code>
+package main
+
+import "github.com/maxence-charriere/go-app/v6/pkg/app"
+
+type hello struct {
+    app.Compo
+    name string
+}
+
+func (h *hello) Render() app.UI {
+    return app.Div().Body(
+        app.Main().Body(
+            app.H1().Body(
+                app.Text("Hello, "),
+                app.If(h.name != "",
+                    app.Text(h.name),
+                ).Else(
+                    app.Text("World"),
+                ),
+            ),
+            app.Input().
+                Value(h.name).
+                Placeholder("What is your name?").
+                AutoFocus(true).
+                OnChange(h.OnInputChange),
+        ),
+    )
+}
+
+func (h *hello) OnInputChange(src app.Value, e app.Event) {
+    h.name = src.Get("value").String()
+    h.Update()
+}
+
+func main() {
+    app.Route("/", &hello{})
+    app.Route("/hello", &hello{})
+    app.Run()
+}
+</code>
+
+---
+
+<footer> 
+
+<h4>This article is the first of many</h4>
+
+Further Articles
+
+</footer>
+</center>
+</div>
+</body>
+</html>

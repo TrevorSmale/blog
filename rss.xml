@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<!-- This is an RSS comment -->
+
+<channel>
+  <title>Trevors Blog</title>
+  <link>https://trevorsmale.github.io/blog/vim</link>
+  <description>Notes about an ultrafast text editor</description>
+  <item>
+    <title>SSH</title>
+    <link>https://trevorsmale.github.io/blog/ssh</link>
+    <description>Notes about SSH </description>
+  </item>
+  <item>
+    <title>Phones</title>
+    <link>https://trevorsmale.github.io/blog/phones</link>
+    <description>Notes about smartphones</description>
+  </item>
+</channel>
+
+</rss>
