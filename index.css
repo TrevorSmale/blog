@@ -9,7 +9,7 @@
 .wrapper{
 
     display:grid;
-	grid-gap:0.5em;
+	grid-gap:2rem;
 
 }
 
@@ -18,10 +18,10 @@
 
 .wrapper > div{
 background-color: #white;
-padding-top: 25px;
-padding-left: 25px;
-padding-right: 25px;
-padding-bottom: 25px;
+padding-top: 40px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
 	
 }
 
@@ -35,12 +35,12 @@ padding-bottom: 25px;
 
 .wrapper {
   display: grid;
-  grid-template-columns: 4fr 2fr;
-  min-width: 450px;
+  grid-template-columns: 4fr 1fr;
+  min-width: 300px;
   max-width: 1fr;
   background-color: #white;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 0px;
+  padding-left: 0px;
   padding-bottom: 10px;
   padding-top: 50px;
 }
