@@ -9,7 +9,7 @@
 .wrapper{
 
     display:grid;
-	grid-gap:2rem;
+	grid-gap:0rem;
 
 }
 
@@ -18,9 +18,9 @@
 
 .wrapper > div{
 background-color: #white;
-padding-top: 40px;
-padding-left: 40px;
-padding-right: 40px;
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 20px;
 padding-bottom: 40px;
 	
 }
@@ -35,14 +35,14 @@ padding-bottom: 40px;
 
 .wrapper {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 250px;
   min-width: 300px;
   max-width: 1fr;
   background-color: #white;
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 /* Don't know what this does yet */
