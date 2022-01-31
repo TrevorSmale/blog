@@ -1,0 +1,56 @@
+Setting up GitHub Desktop
+
+May 25, 2020
+Setting up GitHub Desktop
+
+Adding Original Repo As an Upstream Repo  
+In order to pull the changes from the original repository into your forked version, you need to add the original git repository as an upstream repository.  These are the steps I followed in order to setup an offline mirror of my fork for large repository changes in a comfy IDE. 
+Step 1 Open a Command Prompt (Windows) or Terminal (Mac or Linux)  
+Step 2 Navigate to the directory that contains your forked repository  
+Step 3 Run the following command to list the currently configured remote repositories    
+
+git remote -v          origin https://github.com/[Your UserName]/[Your Fork].
+
+git (fetch)          origin https://github.com/[Your UserName]/[Your Fork].
+
+git (push)  
+Step 4 Add the original repository as an upstream repository    
+
+git remote add upstream https://github.com/[Original Owner Username]/[Original Repository].git  
+Step 5 If you run the git remote command again, you will now see both origin and upstream are configured    
+
+git remote -v    origin https://github.com/[Your UserName]/[Your Fork].
+
+git (fetch)    origin https://github.com/[Your UserName]/[Your Fork].
+
+git (push)    upstream https://github.com/[Original Owner UserName]/[Original Repository].
+
+git (fetch)    upstream https://github.com/[Original Owner UserName]/[Original Repository].
+
+git (push)  
+
+git fetch upstream    
+
+remote: Counting objects: 75, done.  
+
+remote: Compressing objects: 100% (53/53), done.   
+
+remote: Total 62 (delta 27), reused 44 (delta 9)   Unpacking objects: 100% (62/62), done.   
+
+From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY    * [new branch]      master     -> upstream/master  
+Step 6 At this point your local branch is synced to the original repositories master branch. If you want to update the Github repository, you need to push your changes.    
+
+$ git push origin master 
+Step 7 Wrap-Up  
+
+To summarize, with the 5 commands below you can sync your forked repository with the original repository and push the changes to your Github repository.    
+
+git remote add upstream https://github.com/[Original Owner Username]/[Original Repository].git   
+
+git fetch upstream   
+
+git checkout master   
+
+git merge upstream/master   
+
+git push
