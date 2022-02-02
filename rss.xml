@@ -4,19 +4,88 @@
 <!-- This is an RSS comment -->
 
 <channel>
+
   <title>Trevors Blog</title>
-  <link>https://trevorsmale.github.io/blog/vim</link>
-  <description>Notes about an ultrafast text editor</description>
-  <item>
-    <title>SSH</title>
-    <link>https://trevorsmale.github.io/blog/ssh</link>
-    <description>Notes about SSH </description>
-  </item>
-  <item>
+
+
+<item>
+  
+    <title>Blender</title>
+  
+    <link>https://trevorsmale.github.io/blog/Blender.html</link>
+  
+    <description>Blender</description>
+  
+</item>
+  
+<item>
+  
     <title>Phones</title>
-    <link>https://trevorsmale.github.io/blog/phones</link>
-    <description>Notes about smartphones</description>
-  </item>
+  
+    <link>https://trevorsmale.github.io/blog/ssh.html</link>
+  
+    <description>Notes about SSH</description>
+  
+</item>
+
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/go.html</link>
+  
+  <description>Notes about Golang</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/vim.html</link>
+  
+  <description>Notes about VIM</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/sketching.html</link>
+  
+  <description>Notes about sketching</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/3dmouse.html</link>
+  
+  <description>Notes about 3D mice</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/phones.html</link>
+  
+  <description>Notes about Smartphones/Phones</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/Tympanorg.html</link>
+  
+  <description>The Tympan Project</description>
+
+</item>
+  
+<item>
+  
+  <link>https://trevorsmale.github.io/blog/am.html</link>
+  
+  <description>Notes about additive manufacturing</description>
+
+</item>
+
+
 </channel>
 
 </rss>
+
