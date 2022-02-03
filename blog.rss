@@ -1,91 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
-<!-- This is an RSS comment -->
+<!-- Testing -->
 
 <channel>
 
-  <title>Trevors Blog</title>
+ <atom:link rel="self" href="https://trevorsmale.github.io/blog/blog.rss" />
+ <language>en-us</language>
+ <managingEditor>trevor@mailbox.org</managingEditor>
+ <webMaster>trevor@mailbox.org</webMaster>
 
-
-<item>
-  
-    <title>Blender</title>
-  
-    <link>https://trevorsmale.github.io/blog/Blender.html</link>
-  
-    <description>Blender</description>
-  
-</item>
-  
-<item>
-  
-    <title>Phones</title>
-  
-    <link>https://trevorsmale.github.io/blog/ssh.html</link>
-  
-    <description>Notes about SSH</description>
-  
-</item>
-
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/go.html</link>
-  
-  <description>Notes about Golang</description>
+ <item> <title>Blender</title>
+ <link>https://trevorsmale.github.io/blog/Blender.html</link>
+ <description>A living document containing Blender info and procedural notes </description>
+ <enclosure url="https://trevorsmale.github.io/blog/img/Blender.svg" type="image/svg" />
+ <pubDate>Mon, 02 Feb 2022 00:00 EST</pubDate>
+ <source url="https://trevorsmale.github.io/blog/blog.rss">blog</source>
 
 </item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/vim.html</link>
-  
-  <description>Notes about VIM</description>
-
-</item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/sketching.html</link>
-  
-  <description>Notes about sketching</description>
-
-</item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/3dmouse.html</link>
-  
-  <description>Notes about 3D mice</description>
-
-</item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/phones.html</link>
-  
-  <description>Notes about Smartphones/Phones</description>
-
-</item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/Tympanorg.html</link>
-  
-  <description>The Tympan Project</description>
-
-</item>
-  
-<item>
-  
-  <link>https://trevorsmale.github.io/blog/am.html</link>
-  
-  <description>Notes about additive manufacturing</description>
-
-</item>
-
-
 </channel>
-
 </rss>
 
