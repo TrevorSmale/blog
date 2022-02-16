@@ -9,7 +9,7 @@
 <center><img src="img/Openbsd.svg" style="width:200px;height:200px;"></center>
 <h1> Open SSH </h1>
 
-<p> Revised 2022/01/12 </p>
+<p> Revised 2022/02/16 </p>
 
 
 
@@ -28,67 +28,47 @@
 </br>
 
 
-<h2>Overview</h2>
+<h1>Overview</h1>
 
-<h4>Open SSH was created by the Open BSD project, it Designed in order to remotely connect to servers</h4>
+<h2> Overview </h2>
+
+<center> The Secure Shell Language was created by the Open BSD foundation to allows for highly secure communication using complex routing techniques and cryptographic keys to enable remote access of host computers. </center>
+
+<h2> Terminal Required </h2>
+
+<center> Terminal is a text command interface available on UNIX like systems. It enables written commands to effect every function of the computer. Generating and accessing SSH key data requires use of the terminal. If this is the first time you are reading about the terminal I suggest that you read or watch a short tutorial on using your specific terminal before attempting SSH key generation. </center>
+
+<h2> SSH is needed </h2>
+
+<center> SSH enables trusted communication to devices on the internet. It creates a trusted key-pair that acts as an identifyable fingerprint for trusted exchange. This is especially important with GitHub where many users are accessing a remote server to contribute changes. </center>
+
+<br>
+<br>
+
+<h2> Further Notes </h2>
 
 <li>Open SSH Normally runs Port 22, but can be configured to run on other ports</li>
 <li>The path to a remote server is normaly complex with many ports and routers to pass through</li>
 <li>Troubleshooting a bad connection can be really difficult</li>
 <li>It is important to know the version of OpenSSH you are using</li>
-<li>To install download opens-client</li>
+<li>To install download openssh-client</li>
 <li>There is a hidden .ssh file that is contained in the home directory of a UNIX system</li>
 <li>The hidden directory contains Fingerprints and Config data used for authentication</li>
 <li>To connect remotely via SSH we must have port forwarding setup on our home router</li>
-<li>Port forwarding is blocked by ISP’s sometimes, one must check the type of router they are using and enable/disable this feature</li>
+<li>Port forwarding is blocked by ISPs sometimes, one must check the type of router they are using and enable/disable this feature</li>
 <li>Additional configurations must be make in order to secure remote connections, as there are many inherent vulnerabilities in port forwarding</li>
 
-<h4>This article is the first of many</h4>
+<h2> External Articles </h2>
 
-Generating and SSH Key
-
-<h2> About Terminal </h2>
-
-Terminal is the terminal emulator which provides a text-based command line interface to the Unix shell of macOS.
-
-<h4> To open the macOS Terminal, follow these steps: </h4>
-
-In Finder, choose Utilities from the Applications folder.
-
-</br>
-
-Find Terminal in the Utilities listw.
-
-</br>
-
-Open Terminal.
-
-</br>
-
-The Terminal window opens with the commandline prompt displaying the name of your machine and your username.
-
-## Generating an SSH Key
-
-### Description
-
-An SSH key consists of a pair of files. One is the private key, which should never be shared with anyone. The other is the public key. The other file is a public key which allows you to log into the containers and VMs you provision. When you generate the keys, you will use ```ssh-keygen``` to store the keys in a safe location so you can bypass the login prompt when connecting to your instances.
-
-### Steps
-
-#### Generating your SSH key and saving it to the 
-
-<code> ~ / .ssh / config </code>
+<a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"> <h4> Generating an SSH key for GitHub </h4></a>
+<a href="https://undeadly.org/cgi?action=article;sid=20190302235509"> <h4> Using a Yubikey or Smartcard as an SSH keygen </h4></a>
 
 </div>	
-</center>	
-<center>
-<footer> 
-<h4>This article is the first of many</h4>
 
-Further Articles
+<footer> 
 
 </footer>
-</center>
+
 </div>
 </body>
 </html>
