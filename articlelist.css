@@ -1,0 +1,132 @@
+:root {
+
+  --cont: rgb(255, 255, 255);
+  --bg: rgb(255, 255, 255);
+  --ac1: red;
+  --ac2: green;
+
+  --max-w: 60rem;
+  --contpad: 2rem;
+
+  --bord-rad: 2rem;
+  --bord-col: rgba(0, 0, 0, 0.221);
+  --bord-thick: 1px;
+
+}
+
+/* Custom Classes*/
+
+.container {
+  
+  max-width: var(--max-w);
+  margin: 0 auto;
+  background-color: var(--cont);
+  border-radius: var(--bord-rad);
+  border-color: var(--bord-col);
+  border-style: solid;
+  border-width: var(--bord-thick);
+
+}
+
+.introcontainer {
+
+height: auto;
+background-color: var(--bg);
+padding: var(--contpad);
+
+}
+
+.rsscontainer {
+
+  height: auto;
+  background-color: var(--bg);
+
+}
+
+.intro {
+
+  height: auto;
+  width: auto;
+  font-size: x-large;
+  background-color: var(--bg);
+  font-family: sans-serif;
+  padding: 0.5rem;
+
+}
+
+.articlelinks {
+
+  height: auto;
+  width: auto;
+  background-color: var(--bg);
+
+}
+
+article {
+
+  width: auto;
+  background-color: var(--ac1)
+  margin: 0.5rem;
+  font-size: larger;
+  font-family: sans-serif;
+
+}
+
+.rss {
+
+  display: block;
+  height: 2rem;
+  margin-left: 50%;
+  margin-right: auto;
+  
+}
+
+.twitter {
+
+  display: block;
+
+}
+
+/* Normal Classes */
+
+footer {
+
+  width: auto;
+  height: 4rem;
+  text-align: center;
+  padding: 2rem;
+
+}
+
+article {
+  display: block;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  text-decoration: none;
+}
+
+a :hover {
+
+  background-color: rgb(225, 225, 244);
+  
+}
+
+a :visited {
+
+  color: black;
+  text-decoration: none;
+}
