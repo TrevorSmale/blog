@@ -1,7 +1,7 @@
 :root {
 
-  --cont: rgb(255, 255, 255);
-  --bg: rgb(255, 255, 255);
+  --cont: rgba(255, 255, 255, 0.777);
+  --bg: rgba(255, 255, 255, 0);
   --ac1: red;
   --ac2: green;
 
@@ -9,8 +9,8 @@
   --contpad: 2rem;
 
   --bord-rad: 2rem;
-  --bord-col: rgba(0, 0, 0, 0.221);
-  --bord-thick: 1px;
+  --bord-col: rgb(255, 255, 255);
+  --bord-thick: 3px;
 
 }
 
@@ -19,12 +19,13 @@
 .container {
   
   max-width: var(--max-w);
-  margin: 0 auto;
+  margin: 2rem auto;
   background-color: var(--cont);
   border-radius: var(--bord-rad);
   border-color: var(--bord-col);
   border-style: solid;
   border-width: var(--bord-thick);
+  overflow-wrap: break-word;
 
 }
 
@@ -36,13 +37,6 @@ padding: var(--contpad);
 
 }
 
-.rsscontainer {
-
-  height: auto;
-  background-color: var(--bg);
-
-}
-
 .intro {
 
   height: auto;
@@ -51,24 +45,6 @@ padding: var(--contpad);
   background-color: var(--bg);
   font-family: sans-serif;
   padding: 0.5rem;
-
-}
-
-.articlelinks {
-
-  height: auto;
-  width: auto;
-  background-color: var(--bg);
-
-}
-
-article {
-
-  width: auto;
-  background-color: var(--ac1)
-  margin: 0.5rem;
-  font-size: larger;
-  font-family: sans-serif;
 
 }
 
@@ -87,6 +63,11 @@ article {
 
 }
 
+.articlelinks {
+
+  padding: 2rem;
+}
+
 /* Normal Classes */
 
 footer {
@@ -95,13 +76,23 @@ footer {
   height: 4rem;
   text-align: center;
   padding: 2rem;
+  margin-bottom: 2rem;
 
 }
 
 article {
-  display: block;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+
+  font-size: large;
+  font-family: sans-serif;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0.5rem;
   border-radius: 0.2rem;
+
+}
+
+article :hover{
+
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -114,15 +105,9 @@ h2 {
 }
 
 a {
-  background-color: rgba(255, 255, 255, 0);
+  
   color: black;
   text-decoration: none;
-}
-
-a :hover {
-
-  background-color: rgb(225, 225, 244);
-  
 }
 
 a :visited {
