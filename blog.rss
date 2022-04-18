@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
-<!-- Testing -->
+    <!-- Testing -->
 
-<channel>
+    <channel>
 
- <atom:link rel="self" href="https://trevorsmale.github.io/blog/blog.rss" />
- <language>en-us</language>
- <managingEditor>trevor@mailbox.org</managingEditor>
- <webMaster>trevor@mailbox.org</webMaster>
+        <atom:link rel="self" href="https://trevorsmale.github.io/blog/blog.rss" />
+        <language>en-us</language>
+        <managingEditor>trevor@mailbox.org</managingEditor>
+        <webMaster>trevor@mailbox.org</webMaster>
 
- <item> <title>Blender</title>
- <link>https://trevorsmale.github.io/blog/Blender.html</link>
- <description>A living document containing Blender info and procedural notes </description>
- <enclosure url="https://trevorsmale.github.io/blog/img/Blender.svg" type="image/svg" />
- <pubDate>Mon, 02 Feb 2022 00:00 EST</pubDate>
- <source url="https://trevorsmale.github.io/blog/blog.rss">blog</source>
+        <item>
+            <title>Blender</title>
+            <link>https://trevorsmale.github.io/blog/Blender.html</link>
+            <description>A living document containing Blender info and procedural notes </description>
+            <enclosure url="https://trevorsmale.github.io/blog/img/Blender.svg" type="image/svg" />
+            <pubDate>Mon, 02 Feb 2022 00:00 EST</pubDate>
+            <source url="https://trevorsmale.github.io/blog/blog.rss">blog</source>
 
-</item>
-</channel>
+        </item>
+    </channel>
 </rss>
 
