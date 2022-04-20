@@ -1,12 +1,6 @@
 
 :root {
 
-  --vim: green;
-  --obsd: yellow;
-  --blender: orange;
-  --go: blue;
-  --sketch: red;
-
   --max-w: 60rem;
   --contpad: 2rem;
 
@@ -26,7 +20,7 @@
   border-width: var(--bord-thick);
   border-style: solid;
   
-  background-color: rgba(255, 255, 255, 0.755);
+  background-color: rgba(255, 255, 255, 0.636);
   min-width: 20em;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -126,6 +120,6 @@ footer {
 
 code {
 
-  background-color: rgb(223, 221, 108);
+  background-color: rgb(228, 227, 190);
   font-style: underline;
 }

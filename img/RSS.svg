@@ -1,1 +1,37 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path d="M35.16,13.68A21.79,21.79,0,0,0,13.37,35.47V166.21A21.8,21.8,0,0,0,35.16,188H165.9a21.79,21.79,0,0,0,21.79-21.79V35.47A21.78,21.78,0,0,0,165.9,13.68ZM51.5,40.92a109,109,0,0,1,109,109,10.9,10.9,0,0,1-21.79,0A87.16,87.16,0,0,0,51.5,62.71a10.9,10.9,0,0,1,0-21.79Zm0,43.58a65.37,65.37,0,0,1,65.38,65.37,10.9,10.9,0,0,1-21.79,0A43.59,43.59,0,0,0,51.5,106.29a10.9,10.9,0,0,1,0-21.79ZM57,160.76a16.34,16.34,0,1,1,16.34-16.34A16.34,16.34,0,0,1,57,160.76Z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 200 200"
+   version="1.1"
+   sodipodi:docname="RSS.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.595"
+     inkscape:cx="45.201669"
+     inkscape:cy="103.33797"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <path
+     d="M35.16,13.68A21.79,21.79,0,0,0,13.37,35.47V166.21A21.8,21.8,0,0,0,35.16,188H165.9a21.79,21.79,0,0,0,21.79-21.79V35.47A21.78,21.78,0,0,0,165.9,13.68ZM51.5,40.92a109,109,0,0,1,109,109,10.9,10.9,0,0,1-21.79,0A87.16,87.16,0,0,0,51.5,62.71a10.9,10.9,0,0,1,0-21.79Zm0,43.58a65.37,65.37,0,0,1,65.38,65.37,10.9,10.9,0,0,1-21.79,0A43.59,43.59,0,0,0,51.5,106.29a10.9,10.9,0,0,1,0-21.79ZM57,160.76a16.34,16.34,0,1,1,16.34-16.34A16.34,16.34,0,0,1,57,160.76Z"
+     id="path2"
+     style="fill:#d45500" />
+</svg>
