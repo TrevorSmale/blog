@@ -1,121 +1,90 @@
-:root {
-
-  --cont: rgba(240, 245, 255, 0.926);
-  --bg: rgba(255, 255, 255, 0);
-  --ac1: red;
-  --ac2: green;
-
-  --max-w: 60rem;
-  --contpad: 1rem;
-
-  --bord-rad: 2rem;
-  --bord-col: rgb(255, 255, 255);
-  --bord-thick: 3px;
-
-}
-
-/* Custom Classes*/
-
 .container {
-
-  max-width: var(--max-w);
-  margin: 1rem auto;
-  background-color: var(--cont);
-  border-radius: var(--bord-rad);
-  border-color: var(--bord-col);
-  border-style: solid;
-  border-width: var(--bord-thick);
-  overflow-wrap: break-word;
-
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.2rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    overflow-wrap: break-word;
 }
 
 .introcontainer {
-
-  height: auto;
-  background-color: var(--bg);
-  margin: 0%;
-
+    height: auto;
+    background-color: var(--bg);
+    margin: 0%;
 }
 
 .intro {
-
-  height: auto;
-  width: auto;
-  font-size: x-large;
-  background-color: var(--bg);
-  font-family: sans-serif;
-  padding: 0.5rem;
-
+    height: auto;
+    width: auto;
+    font-size: x-large;
+    background-color: var(--bg);
+    font-family: sans-serif;
+    padding: 0.5rem;
 }
 
 .articlelinks {
-
-  padding: 1rem;
-  
+    padding: 1rem;
 }
+
 
 /* Normal Classes */
 
 footer {
-
-  width: auto;
-  height: auto;
-  text-align: center;
-  padding: 0.5rem;
-  margin-bottom: 0;
-
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0;
 }
 
 .articlepage {
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  background-color: white;
-  border-radius: 0.5rem;
-  margin: 2rem;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    background-color: white;
+    border-radius: 0.1rem;
+    margin: 0.5rem;
 }
 
 article {
-
-  display: block;
-  font-size: large;
-  font-family: sans-serif;
-  margin: 1.5rem;
-
+    display: block;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 0.4rem;
 }
 
 article :hover {
-
-  display: block;
-  background-color: rgb(207, 229, 246);
-
+    display: block;
+    background-color: rgb(207, 229, 246);
 }
 
 h1 {
-  text-align: center;
-  margin-bottom: 0%;
-  margin-top: 0%;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 a {
-
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 a :visited {
-
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 strong {
+    display: block;
+    color: rgb(206, 89, 0);
+}
 
-  display: block;
-  color: rgb(206, 89, 0);
+body {
+    background-color: rgb(82, 111, 189);
 }
