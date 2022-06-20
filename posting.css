@@ -1,26 +1,26 @@
 
 :root {
 
-  --max-w: 60rem;
+  --max-w: 40rem;
   --contpad: 2rem;
 
   --bord-rad: 0.2rem;
-  --bord-col: rgb(255, 255, 255);
-  --bord-thick: 3px;
+  --bord-col: rgb(0, 0, 0);
+  --bord-thick: 1px;
 
 }
 
 /*--------------------------------------------------------------------------------*/
 
 .wrapper {
-  max-width: 60em;
+  max-width: 40em;
   padding: 1em;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   border-color: var(--bord-col);
   border-width: var(--bord-thick);
   border-style: solid;
   
-  background-color: rgba(255, 255, 255, 0.636);
+  background-color: rgb(255, 255, 255);
   min-width: 20em;
   margin-bottom: 1em;
   margin-top: 1em;
